@@ -1,0 +1,23 @@
++ Một phân số được gọi là tối giản khi tử và mẫu là hai số nguyên tố cùng nhau.
+Hai số được gọi là nguyên tố cùng nhau khi chúng có UCLN = 1. 
+Khi hai số chưa tối giản, ta thực hiện chia cả tử và mẫu cho UCLN của hai số đó.
+
++ Để tìm UCLN của hai số, ta sử dụng thuật toán Euclid (Thuật toán Euclid là một thuật toán cổ điển 
+được sử dụng để tìm ước số chung lớn nhất (GCD - Greatest Common Divisor) của hai số nguyên. 
+Ý tưởng chính của thuật toán Euclid dựa trên một tính chất quan trọng của GCD: GCD 
+của hai số nguyên không thay đổi nếu chúng được chia lần lượt cho nhau)
+
+Thuật toán Euclid để tìm GCD của hai số nguyên a và b như sau:
+    - Gán số lớn hơn vào biến a và số nhỏ hơn vào biến b.
+    - Chia a cho b và lấy phần dư. Gán phần dư này vào biến a và gán b vào a.
+    - Lặp lại Bước 2 cho đến khi bằng 0. Khi đó, a sẽ là GCD của hai số ban đầu.
+
++ Ý tưởng của chương trình như sau:
+    1. Viết hàm tìm UCLN của hai số
+    3. Nhập vào tử số a và mẫu số b của phân số
+    3. Kiểm tra mẫu số có bằng 0 hay không:
+        - Nếu b bằng 0, in ra câu lệnh không tồn tại phân số
+        - Nếu b khác 0, tính UCLN của tử và mẫu. Sau đó sử dụng điều kiện if:
+            UCLN = 1 thì phân số tối giản, in ra phân số a/b
+            UCLN khác 1 thì phân số chưa tối giản, tính phân số tối giản bằng cách chia cả tử và mẫu
+            cho UCLN sau đố mới in ra phân số vừa rút gọn
