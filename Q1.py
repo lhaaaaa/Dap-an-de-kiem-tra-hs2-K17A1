@@ -3,7 +3,7 @@
 #Để nhập vào giá trị của một số cần sử dụng lệnh input và ép kiểu giá trị số cho biến vừa nhập
 n = eval(input("Nhập vào số n:"))
 
-#Sử dụng vòng lặp if dể kiểm tra số vừa nhập lớn hơn hay nhỏ hơn 0
+#Sử dụng điều kiện if dể kiểm tra số vừa nhập lớn hơn hay nhỏ hơn 0
 if n > 0: #Nếu số nhập vào là số lớn hơn 0
     #Thực hiện phép chia lấy phần nguyên (đề bài chỉ yêu cầu lấy thương, không lấy số dư)
     a = n//5 
