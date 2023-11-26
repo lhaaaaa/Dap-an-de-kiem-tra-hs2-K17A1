@@ -1,0 +1,11 @@
++ Số nguyên tố là số tự nhiên lớn hơn 1, chỉ chia hết cho một và chính nó.
+
++ Để kiểm tra một số A là số nguyên tố, ta sẽ chia số đó cho các số tự nhiên (khác 0) nhỏ hơn bằng A 
+hoặc nhỏ hơn căn bậc 2 của A (một số nguyên tố lớn nhất có thể là căn bậc hai của chính nó).
+
++Quy trình kiểm tra số nguyên tố có thể được thực hiện như sau:
+    1. Kiểm tra xem số A có nhỏ hơn hoặc bằng 1 không. Nếu có, số A không phải là số nguyên tố.
+    2. Lặp qua các số i từ 2 đến căn bậc hai của A.
+        - Kiểm tra xem A có chia hết cho i hay không (tức là A % i == 0). Nếu có, số A không phải là số nguyên tố.
+        -  Nếu không tìm thấy bất kỳ số i nào mà A chia hết, ta kết luận rằng A là số nguyên tố.
+    3. Nếu số A đã qua được tất cả các bước kiểm tra ở trên mà không được loại bỏ, ta kết luận rằng A là số nguyên tố.
