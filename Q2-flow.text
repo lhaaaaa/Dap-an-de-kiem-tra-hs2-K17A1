@@ -1,0 +1,7 @@
+Cách giải phương trình ax + b = c:
+
+Nếu a khác 0, thì phương trình luôn có nghiệm duy nhất x = (c - b)/a.
+
+Nếu a = 0 và c - b = 0 thì phương trình có vô số nghiệm (x có thể nhận giá trị tùy ý). 
+
+Nếu a = 0 và c - b khác 0 thì phương trình vô nghiệm.

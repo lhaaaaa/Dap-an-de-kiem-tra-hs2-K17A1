@@ -1,0 +1,14 @@
++ Số chính phương là số tự nhiên có căn bậc hai là một số tự nhiên, hay nói cách khác, 
+số chính phương bằng bình phương của một số tự nhiên.
+=> Để kiểm tra một số là số chính phương, ta cần kiểm tra trong phạm vi từ 1 đến số nhập vào
+ xem có số nào bình phương lên sẽ bằng số đó hay không. 
+ Nếu có thì số đã cho là số chính phương, ngược lại thì không phải.
+
+ + Để tìm số chính phương m gần nhất với n sao cho m - n > =20 (Ví dụ n = 3 thì m = 25). Ta thực hiện như sau:
+    - Gán giá trị m bằng giá trị số chính phương n vừa tìm được
+    - Chạy vòng lặp while với điểm dừng là n + 20. 
+    Trong vòng lặp while, ta kiểm tra số đó có phải là số chính phương không.
+    Nếu có thì sẽ dừng vòng lặp while
+    Nếu không tăng biến m lên 1 đơn vị.
+
++ Sau khi thực hiện xong vòng lặp while, sử dụng lệnh print để in kết quả số chính phương m thỏa mãn điều kiện
